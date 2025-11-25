@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from '@/lib/i18n';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Mail, Phone, MapPin, Send, Facebook, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Linkedin, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -19,18 +19,54 @@ export default function Contact() {
     message: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: 'success' | 'error' | null;
+    message: string;
+  }>({ type: null, message: '' });
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission - integrate with your backend
-    console.log('Form submitted:', formData);
-    alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
-    setFormData({
-      name: '',
-      email: '',
-      company: '',
-      subject: '',
-      message: '',
-    });
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: '' });
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus({
+          type: 'success',
+          message: data.message,
+        });
+        setFormData({
+          name: '',
+          email: '',
+          company: '',
+          subject: '',
+          message: '',
+        });
+      } else {
+        setSubmitStatus({
+          type: 'error',
+          message: data.message || 'Erro ao enviar mensagem. Tente novamente.',
+        });
+      }
+    } catch (error) {
+      setSubmitStatus({
+        type: 'error',
+        message: 'Erro ao enviar mensagem. Verifique sua conexão e tente novamente.',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (
@@ -68,11 +104,6 @@ export default function Contact() {
       icon: Linkedin,
       label: t('contact.social.linkedin'),
       url: 'https://www.linkedin.com/in/fagner-silva',
-    },
-    {
-      icon: Facebook,
-      label: t('contact.social.facebook'),
-      url: 'https://www.facebook.com/linearhub',
     },
   ];
 
@@ -153,13 +184,19 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="bg-white rounded-xl shadow-lg p-4 h-64 flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <MapPin className="w-12 h-12 mx-auto mb-2 text-primary-600" />
-                <p className="font-semibold">Jaguariúna - SP</p>
-                <p className="text-sm">Brasil</p>
-              </div>
+            {/* Google Maps */}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58805.97687583728!2d-46.98867!3d-22.70504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c7e1e1e1e1e1%3A0x1e1e1e1e1e1e1e1e!2sJaguari%C3%BAna%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localização Linear Hub - Jaguariúna, SP"
+                className="w-full h-64"
+              />
             </div>
           </motion.div>
 
@@ -263,12 +300,44 @@ export default function Contact() {
                 />
               </div>
 
+              {/* Status Messages */}
+              {submitStatus.type && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={`p-4 rounded-lg flex items-start space-x-3 ${
+                    submitStatus.type === 'success'
+                      ? 'bg-green-50 text-green-800 border border-green-200'
+                      : 'bg-red-50 text-red-800 border border-red-200'
+                  }`}
+                >
+                  {submitStatus.type === 'success' ? (
+                    <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                  ) : (
+                    <AlertCircle className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                  )}
+                  <p className="text-sm font-medium">{submitStatus.message}</p>
+                </motion.div>
+              )}
+
               <button
                 type="submit"
-                className="w-full btn-primary flex items-center justify-center space-x-2 group"
+                disabled={isSubmitting}
+                className={`w-full btn-primary flex items-center justify-center space-x-2 group ${
+                  isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
+                }`}
               >
-                <span>{t('contact.form.send')}</span>
-                <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="w-5 h-5 animate-spin" />
+                    <span>Enviando...</span>
+                  </>
+                ) : (
+                  <>
+                    <span>{t('contact.form.send')}</span>
+                    <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  </>
+                )}
               </button>
             </form>
           </motion.div>

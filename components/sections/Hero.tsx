@@ -6,9 +6,9 @@ export default function Hero() {
   const { t } = useTranslation();
 
   const stats = [
-    { icon: TrendingUp, value: '20+', label: t('hero.stats.experience') },
-    { icon: Code, value: '100+', label: t('hero.stats.projects') },
-    { icon: Users, value: '50+', label: t('hero.stats.clients') },
+    { icon: TrendingUp, value: '2020', label: t('hero.stats.founded') },
+    { icon: Code, value: '35+', label: t('hero.stats.projects') },
+    { icon: Users, value: '10+', label: t('hero.stats.clients') },
     { icon: Award, value: '25+', label: t('hero.stats.technologies') },
   ];
 

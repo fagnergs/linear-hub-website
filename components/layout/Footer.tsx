@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useTranslation } from '@/lib/i18n';
-import { Facebook, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -12,17 +12,11 @@ export default function Footer() {
       href: 'https://www.linkedin.com/in/fagner-silva',
       label: 'LinkedIn',
     },
-    {
-      icon: Facebook,
-      href: 'https://www.facebook.com/linearhub',
-      label: 'Facebook',
-    },
   ];
 
   const quickLinks = [
     { key: 'about', href: '#about' },
     { key: 'services', href: '#services' },
-    { key: 'projects', href: '#projects' },
     { key: 'clients', href: '#clients' },
   ];
 
@@ -38,7 +32,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display font-bold text-lg">Linear Hub</span>
-                <span className="text-xs text-gray-400">Technology & Management</span>
+                <span className="text-xs text-gray-400">IA First & Cybersecurity</span>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -85,11 +79,11 @@ export default function Footer() {
               {t('footer.sections.services')}
             </h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Cloud & Digital Transformation</li>
-              <li>SAP S/4HANA</li>
+              <li>IA & Automação</li>
+              <li>Cloud & DevSecOps</li>
               <li>Cybersecurity</li>
-              <li>AI & Blockchain</li>
-              <li>Smart Grids</li>
+              <li>Blockchain & Web3</li>
+              <li>IoT & Edge Computing</li>
             </ul>
           </div>
 

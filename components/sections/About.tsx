@@ -1,7 +1,7 @@
 import { useTranslation } from '@/lib/i18n';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { CheckCircle, Target, Users, Lightbulb, Shield, TrendingUp } from 'lucide-react';
+import { CheckCircle, Target, Users, Lightbulb, Shield, TrendingUp, Zap, Factory, DollarSign, Wheat, Smartphone, FlaskConical } from 'lucide-react';
 
 export default function About() {
   const { t } = useTranslation();
@@ -15,9 +15,16 @@ export default function About() {
     description: string;
   }>;
 
-  const differentialIcons = [Lightbulb, Target, Shield, Users, TrendingUp, CheckCircle];
+  const differentialIcons = [Lightbulb, TrendingUp, Shield, CheckCircle, Target, Users, Lightbulb, TrendingUp];
 
   const profileItems = t('about.profile.items', { returnObjects: true }) as string[];
+
+  const sectors = t('about.sectors.items', { returnObjects: true }) as Array<{
+    title: string;
+    description: string;
+  }>;
+
+  const sectorIcons = [Zap, Factory, DollarSign, Wheat, Smartphone, FlaskConical];
 
   return (
     <section id="about" className="section-padding bg-white">
@@ -89,11 +96,49 @@ export default function About() {
           </div>
         </motion.div>
 
-        {/* Differentials */}
+        {/* Sectors */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.4 }}
+          className="mb-20"
+        >
+          <h3 className="text-3xl font-display font-bold text-gray-900 mb-12 text-center">
+            {t('about.sectors.title')}
+          </h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {sectors.map((sector, index) => {
+              const Icon = sectorIcons[index];
+              return (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={inView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
+                  className="card hover-lift bg-gradient-to-br from-white to-gray-50"
+                >
+                  <div className="flex items-center space-x-3 mb-4">
+                    <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
+                      <Icon className="w-6 h-6 text-primary-600" />
+                    </div>
+                    <h4 className="font-display font-semibold text-lg text-gray-900">
+                      {sector.title}
+                    </h4>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed text-sm">
+                    {sector.description}
+                  </p>
+                </motion.div>
+              );
+            })}
+          </div>
+        </motion.div>
+
+        {/* Differentials */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.5 }}
         >
           <h3 className="text-3xl font-display font-bold text-gray-900 mb-12 text-center">
             {t('about.differentials.title')}
@@ -106,7 +151,7 @@ export default function About() {
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   animate={inView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
+                  transition={{ duration: 0.5, delay: 0.6 + index * 0.1 }}
                   className="card hover-lift"
                 >
                   <div className="flex items-center space-x-3 mb-4">

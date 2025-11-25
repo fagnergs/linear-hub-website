@@ -3,17 +3,16 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "projects": "Projects",
     "clients": "Clients",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Digital Transformation with Excellence",
-    "subtitle": "Strategic solutions in technology, innovation and management for organizations seeking extraordinary results",
+    "title": "AI First & Cybersecurity: Intelligent Digital Transformation",
+    "subtitle": "Consulting specialized in Artificial Intelligence, Cloud and Automation. We place AI at the center of all solutions with security integrated from design to deliver resilient, scalable and self-optimizing systems",
     "cta_primary": "Contact Us",
     "cta_secondary": "Discover Our Services",
     "stats": {
-      "experience": "Years of Experience",
+      "founded": "Operations Started",
       "projects": "Delivered Projects",
       "clients": "Satisfied Clients",
       "technologies": "Mastered Technologies"
@@ -21,51 +20,87 @@
   },
   "about": {
     "title": "About Us",
-    "subtitle": "Experts in Innovation and Technology",
-    "description": "Company specialized in innovation, prospecting, planning, implementation and development of specific projects for technology, financial, energy, industrial, services and agriculture sectors.",
+    "subtitle": "AI First Approach",
+    "description": "Technology consulting specialized in Artificial Intelligence, Cloud and Automation. Founded in 2020, we place AI at the center of all solutions to digitally transform organizations seeking operational excellence and continuous innovation.",
     "mission": {
-      "title": "Our Mission",
-      "description": "To contribute to building sustainable and differentiated strategic solutions, putting our know-how at the service of organizations seeking excellence and commitment in their achievements."
+      "title": "Our Philosophy",
+      "description": "AI First means that artificial intelligence is not just an additional tool, but the core of our solution architecture. We combine intelligent automation, cloud computing and modern engineering practices to deliver resilient, scalable and self-optimizing systems."
     },
     "profile": {
-      "title": "Company Profile",
+      "title": "Technology Principles",
       "items": [
-        "Founded in 2020 with focus on disruptive innovation",
-        "Professionals with extensive experience in consulting and development projects",
-        "Multidisciplinary team with expertise in software, hardware and processes",
-        "Experience in Research, Development and Innovation (RD&I)",
-        "Strong expertise in AI, Blockchain, IoT and Information Security",
-        "Operation in environments with regulatory agencies",
-        "Deep knowledge of organizational processes",
-        "Robust project management (PMO/VMO)"
+        "End-to-End Automation - Maximum automation with minimal human intervention across all processes",
+        "Cloud Agnostic - Vendor independence with expertise in AWS, Azure, GCP and Oracle Cloud",
+        "Security by Design - Security integrated from conception, not as an additional layer",
+        "Everything as Code - Infrastructure, security, policies and compliance versioned as code",
+        "Modern Tech Stack - Kubernetes, Terraform, Python, Go, Rust and cutting-edge tools",
+        "Observability Driven - Proactive monitoring with OpenTelemetry, Prometheus and Grafana",
+        "Zero Trust Architecture - Zero trust model with continuous authentication and microsegmentation"
+      ]
+    },
+    "sectors": {
+      "title": "Industry Sectors",
+      "items": [
+        {
+          "title": "Energy & Utilities",
+          "description": "Smart grids, energy management, industrial IoT"
+        },
+        {
+          "title": "Industry 4.0",
+          "description": "Automation, digital twin, OT security"
+        },
+        {
+          "title": "Financial Services",
+          "description": "AI for credit, blockchain, compliance"
+        },
+        {
+          "title": "Agribusiness",
+          "description": "IoT, AI for predictive analysis, supply chain"
+        },
+        {
+          "title": "Technology & Telecom",
+          "description": "Cloud native, edge computing, 5G"
+        },
+        {
+          "title": "Research, Development & Innovation",
+          "description": "R&D, ICTs and Universities"
+        }
       ]
     },
     "differentials": {
-      "title": "Differentials",
+      "title": "Technology Differentials",
       "items": [
         {
-          "title": "Innovative Solutions",
-          "description": "Products and services using the latest technologies"
+          "title": "AI First Approach",
+          "description": "Artificial intelligence at the core of all solutions"
         },
         {
-          "title": "Strategic Vision",
-          "description": "Focus on results aligned with business objectives"
+          "title": "End-to-End Automation",
+          "description": "Maximum automation with minimal human intervention"
         },
         {
-          "title": "Solid Methodology",
-          "description": "Based on Best Practices and consolidated frameworks"
+          "title": "Cloud Agnostic",
+          "description": "Vendor independence with multi-cloud expertise"
         },
         {
-          "title": "Independence",
-          "description": "Vendor-independent consulting"
+          "title": "Security by Default",
+          "description": "Security integrated from design"
         },
         {
-          "title": "Senior Team",
-          "description": "Experienced and highly qualified professionals"
+          "title": "Modern Tech Stack",
+          "description": "Cutting-edge technologies: Kubernetes, Terraform, Python, Go, Rust"
         },
         {
-          "title": "Proven ROI",
-          "description": "Consistent return on investment"
+          "title": "GitOps & Everything as Code",
+          "description": "Infrastructure, security and policies as code"
+        },
+        {
+          "title": "Observability Driven",
+          "description": "Proactive monitoring with OpenTelemetry, Prometheus, Grafana"
+        },
+        {
+          "title": "Agile & Lean",
+          "description": "Agile methodologies with incremental and iterative deliveries"
         }
       ]
     }
@@ -75,63 +110,38 @@
     "subtitle": "Complete Solutions in Technology and Management",
     "items": [
       {
-        "title": "Digital Transformation and Cloud",
-        "description": "Cloud computing roadmap (AWS, GCP, Azure), workload migration, solution architecture and cost optimization.",
-        "icon": "cloud"
-      },
-      {
-        "title": "SAP S/4HANA and SuccessFactors",
-        "description": "Implementation, migration, optimization and specialized support in SAP solutions for large corporations.",
-        "icon": "database"
-      },
-      {
-        "title": "IT and OT Cybersecurity",
-        "description": "Security strategies, compliance, SOC, vulnerability management and critical infrastructure protection.",
-        "icon": "shield"
-      },
-      {
-        "title": "Automation and RPA",
-        "description": "Business process automation, intelligent agents implementation and RPA solutions.",
-        "icon": "bot"
-      },
-      {
-        "title": "Special Projects: AI, Blockchain and IoT",
-        "description": "Development of innovative solutions using artificial intelligence, blockchain and internet of things.",
+        "title": "Artificial Intelligence & Automation",
+        "description": "Autonomous AI agents, enterprise generative AI, intelligent automation (RPA+AI), computer vision, enterprise copilots and MLOps/LLMOps",
         "icon": "brain"
       },
       {
-        "title": "DevSecOps and CI/CD",
-        "description": "AMS for critical environments, automated CI/CD pipelines and DevSecOps practices.",
+        "title": "Cloud Architecture & DevSecOps",
+        "description": "Multi-cloud strategy, cloud native transformation, IaC (Terraform/Pulumi), automated CI/CD, FinOps and AMS",
+        "icon": "cloud"
+      },
+      {
+        "title": "Cybersecurity & Compliance",
+        "description": "Security by design, zero trust, CSPM, AI security, OT/IT convergence, compliance (GDPR/ISO 27001) and SOC as a Service",
+        "icon": "shield"
+      },
+      {
+        "title": "Blockchain & Web3",
+        "description": "Smart contracts, asset tokenization, blockchain for supply chain and corporate DeFi solutions",
         "icon": "git-branch"
       },
       {
-        "title": "Smart Grids and Utilities",
-        "description": "Specialized consulting for energy sector, telemetry, SCADA and asset management.",
+        "title": "IoT & Edge Computing",
+        "description": "Industrial IoT platforms, smart grids & energy management, edge AI and digital twin",
         "icon": "zap"
       },
       {
-        "title": "Regulatory Consulting",
-        "description": "Consulting in regulatory affairs and compliance for utilities and regulated environments.",
-        "icon": "file-check"
-      },
-      {
-        "title": "RD&I - Research and Innovation",
-        "description": "Development of Research, Development and Innovation projects with complete management.",
+        "title": "Innovation & R&D",
+        "description": "Proof of Concept (PoC), accelerated MVPs, academic partnerships and tech radar",
         "icon": "lightbulb"
       },
       {
-        "title": "PMO and Project Management",
-        "description": "Structuring and management of project offices, with agile and traditional methodologies.",
-        "icon": "layout"
-      },
-      {
-        "title": "Specialized Training",
-        "description": "Team training in technologies, processes and best practices.",
-        "icon": "graduation-cap"
-      },
-      {
-        "title": "Product Development",
-        "description": "Creation of new digital products from concept to implementation.",
+        "title": "Strategic Consulting",
+        "description": "Digital transformation, IT strategy & governance, M&A tech due diligence and ESG tech",
         "icon": "rocket"
       }
     ]
@@ -212,7 +222,7 @@
     "info": {
       "location": "Jaguariúna - SP, Brazil",
       "phone": "+55 21 992 544 456",
-      "email": "Fagner.Silva@linear-hub.com.br",
+      "email": "contato@linear-hub.com.br",
       "website": "linear-hub.com.br"
     },
     "form": {

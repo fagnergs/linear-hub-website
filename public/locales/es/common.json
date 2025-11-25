@@ -3,17 +3,16 @@
     "home": "Inicio",
     "about": "Sobre Nosotros",
     "services": "Servicios",
-    "projects": "Proyectos",
     "clients": "Clientes",
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Transformación Digital con Excelencia",
-    "subtitle": "Soluciones estratégicas en tecnología, innovación y gestión para organizaciones que buscan resultados extraordinarios",
+    "title": "IA First & Cybersecurity: Transformación Digital Inteligente",
+    "subtitle": "Consultoría especializada en Inteligencia Artificial, Cloud y Automatización. Colocamos IA en el centro de todas las soluciones con seguridad integrada desde el diseño para entregar sistemas resilientes, escalables y auto-optimizables",
     "cta_primary": "Contáctenos",
     "cta_secondary": "Conozca Nuestros Servicios",
     "stats": {
-      "experience": "Años de Experiencia",
+      "founded": "Inicio de Operaciones",
       "projects": "Proyectos Entregados",
       "clients": "Clientes Satisfechos",
       "technologies": "Tecnologías Dominadas"
@@ -21,51 +20,87 @@
   },
   "about": {
     "title": "Quiénes Somos",
-    "subtitle": "Especialistas en Innovación y Tecnología",
-    "description": "Empresa especializada en innovación, prospección, planificación, implementación y desarrollo de proyectos específicos para los sectores de tecnología, financiero, energía, industrial, servicios y agricultura.",
+    "subtitle": "Enfoque IA First",
+    "description": "Consultoría tecnológica especializada en Inteligencia Artificial, Cloud y Automatización. Fundada en 2020, colocamos IA en el centro de todas las soluciones para transformar digitalmente organizaciones que buscan excelencia operacional e innovación continua.",
     "mission": {
-      "title": "Nuestra Misión",
-      "description": "Contribuir a la construcción de soluciones estratégicas sostenibles y diferenciadas, poniendo nuestro know-how al servicio de organizaciones que buscan garantizar excelencia y compromiso en sus realizaciones."
+      "title": "Nuestra Filosofía",
+      "description": "IA First significa que inteligencia artificial no es solo una herramienta adicional, sino el núcleo de nuestra arquitectura de soluciones. Combinamos automatización inteligente, cloud computing y prácticas modernas de ingeniería para entregar sistemas resilientes, escalables y auto-optimizables."
     },
     "profile": {
-      "title": "Perfil de la Empresa",
+      "title": "Principios Tecnológicos",
       "items": [
-        "Fundada en 2020 con enfoque en innovación disruptiva",
-        "Profesionales con amplia experiencia en proyectos de consultoría y desarrollo",
-        "Equipo multidisciplinario con experiencia en software, hardware y procesos",
-        "Experiencia en Investigación, Desarrollo e Innovación (I+D+i)",
-        "Fuerte experiencia en IA, Blockchain, IoT y Seguridad de la Información",
-        "Actuación en ambientes con agencias reguladoras",
-        "Conocimiento profundo de procesos organizacionales",
-        "Gestión robusta de proyectos (PMO/VMO)"
+        "Automatización End-to-End - Máxima automatización con mínima intervención humana en todos los procesos",
+        "Cloud Agnostic - Independencia de proveedores con experiencia en AWS, Azure, GCP y Oracle Cloud",
+        "Security by Design - Seguridad integrada desde la concepción, no como capa adicional",
+        "Everything as Code - Infraestructura, seguridad, políticas y compliance versionados como código",
+        "Modern Tech Stack - Kubernetes, Terraform, Python, Go, Rust y herramientas de punta",
+        "Observability Driven - Monitoreo proactivo con OpenTelemetry, Prometheus y Grafana",
+        "Zero Trust Architecture - Modelo de confianza cero con autenticación continua y microsegmentación"
+      ]
+    },
+    "sectors": {
+      "title": "Sectores de Actuación",
+      "items": [
+        {
+          "title": "Energía & Utilities",
+          "description": "Smart grids, gestión energética, IoT industrial"
+        },
+        {
+          "title": "Industria 4.0",
+          "description": "Automatización, digital twin, seguridad OT"
+        },
+        {
+          "title": "Servicios Financieros",
+          "description": "IA para crédito, blockchain, compliance"
+        },
+        {
+          "title": "Agronegocios",
+          "description": "IoT, AI para análisis predictivo, supply chain"
+        },
+        {
+          "title": "Tecnología & Telecom",
+          "description": "Cloud native, edge computing, 5G"
+        },
+        {
+          "title": "Investigación, Desarrollo e Innovación",
+          "description": "R&D, ICTs y Universidades"
+        }
       ]
     },
     "differentials": {
-      "title": "Diferenciales",
+      "title": "Diferenciales Tecnológicos",
       "items": [
         {
-          "title": "Soluciones Innovadoras",
-          "description": "Productos y servicios que utilizan las tecnologías más recientes"
+          "title": "IA First Approach",
+          "description": "Inteligencia artificial en el centro de todas las soluciones"
         },
         {
-          "title": "Visión Estratégica",
-          "description": "Enfoque en resultados alineados con los objetivos de negocio"
+          "title": "Automatización End-to-End",
+          "description": "Máxima automatización con mínima intervención humana"
         },
         {
-          "title": "Metodología Sólida",
-          "description": "Base en Best Practices y frameworks consolidados"
+          "title": "Cloud Agnostic",
+          "description": "Independencia de proveedores con experiencia multi-cloud"
         },
         {
-          "title": "Independencia",
-          "description": "Consultoría independiente de proveedores"
+          "title": "Security by Default",
+          "description": "Seguridad integrada desde el diseño"
         },
         {
-          "title": "Equipo Senior",
-          "description": "Profesionales experimentados y altamente calificados"
+          "title": "Modern Tech Stack",
+          "description": "Tecnologías de punta: Kubernetes, Terraform, Python, Go, Rust"
         },
         {
-          "title": "ROI Comprobado",
-          "description": "Retorno consistente sobre la inversión"
+          "title": "GitOps & Everything as Code",
+          "description": "Infraestructura, seguridad y políticas como código"
+        },
+        {
+          "title": "Observability Driven",
+          "description": "Monitoreo proactivo con OpenTelemetry, Prometheus, Grafana"
+        },
+        {
+          "title": "Agile & Lean",
+          "description": "Metodologías ágiles con entregas incrementales e iterativas"
         }
       ]
     }
@@ -75,63 +110,38 @@
     "subtitle": "Soluciones Completas en Tecnología y Gestión",
     "items": [
       {
-        "title": "Transformación Digital y Nube",
-        "description": "Hoja de ruta de computación en la nube (AWS, GCP, Azure), migración de cargas de trabajo, arquitectura de soluciones y optimización de costos.",
-        "icon": "cloud"
-      },
-      {
-        "title": "SAP S/4HANA y SuccessFactors",
-        "description": "Implementación, migración, optimización y soporte especializado en soluciones SAP para grandes corporaciones.",
-        "icon": "database"
-      },
-      {
-        "title": "Ciberseguridad de TI y TO",
-        "description": "Estrategias de seguridad, compliance, SOC, gestión de vulnerabilidades y protección de infraestructuras críticas.",
-        "icon": "shield"
-      },
-      {
-        "title": "Automatización y RPA",
-        "description": "Automatización de procesos de negocio, implementación de agentes inteligentes y soluciones RPA.",
-        "icon": "bot"
-      },
-      {
-        "title": "Proyectos Especiales: IA, Blockchain e IoT",
-        "description": "Desarrollo de soluciones innovadoras utilizando inteligencia artificial, blockchain e internet de las cosas.",
+        "title": "Inteligencia Artificial & Automatización",
+        "description": "Agentes de IA autónomos, IA generativa empresarial, automatización inteligente (RPA+IA), computer vision, copilots empresariales y MLOps/LLMOps",
         "icon": "brain"
       },
       {
-        "title": "DevSecOps y CI/CD",
-        "description": "AMS de ambientes críticos, pipelines automatizados de CI/CD y prácticas de DevSecOps.",
+        "title": "Cloud Architecture & DevSecOps",
+        "description": "Estrategia multi-cloud, cloud native transformation, IaC (Terraform/Pulumi), CI/CD automatizado, FinOps y AMS",
+        "icon": "cloud"
+      },
+      {
+        "title": "Ciberseguridad & Compliance",
+        "description": "Security by design, zero trust, CSPM, AI security, convergencia OT/IT, compliance (GDPR/ISO 27001) y SOC as a Service",
+        "icon": "shield"
+      },
+      {
+        "title": "Blockchain & Web3",
+        "description": "Smart contracts, tokenización de activos, blockchain para supply chain y soluciones DeFi corporativas",
         "icon": "git-branch"
       },
       {
-        "title": "Smart Grids y Utilities",
-        "description": "Consultoría especializada para sector de energía, telemedición, SCADA y gestión de activos.",
+        "title": "IoT & Edge Computing",
+        "description": "Plataformas IoT industriales, smart grids & energy management, edge AI y digital twin",
         "icon": "zap"
       },
       {
-        "title": "Consultoría Regulatoria",
-        "description": "Consultoría en asuntos regulatorios y compliance para utilities y ambientes regulados.",
-        "icon": "file-check"
-      },
-      {
-        "title": "I+D+i - Investigación e Innovación",
-        "description": "Desarrollo de proyectos de Investigación, Desarrollo e Innovación con gestión completa.",
+        "title": "Innovación & I+D",
+        "description": "Proof of Concept (PoC), MVPs acelerados, alianzas académicas y tech radar",
         "icon": "lightbulb"
       },
       {
-        "title": "PMO y Gestión de Proyectos",
-        "description": "Estructuración y gestión de oficinas de proyectos, con metodologías ágiles y tradicionales.",
-        "icon": "layout"
-      },
-      {
-        "title": "Capacitación Especializada",
-        "description": "Capacitación de equipos en tecnologías, procesos y mejores prácticas.",
-        "icon": "graduation-cap"
-      },
-      {
-        "title": "Desarrollo de Productos",
-        "description": "Creación de nuevos productos digitales desde el concepto hasta la implementación.",
+        "title": "Consultoría Estratégica",
+        "description": "Transformación digital, IT strategy & governance, M&A tech due diligence y ESG tech",
         "icon": "rocket"
       }
     ]
@@ -212,7 +222,7 @@
     "info": {
       "location": "Jaguariúna - SP, Brasil",
       "phone": "+55 21 992 544 456",
-      "email": "Fagner.Silva@linear-hub.com.br",
+      "email": "contato@linear-hub.com.br",
       "website": "linear-hub.com.br"
     },
     "form": {

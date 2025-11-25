@@ -22,7 +22,6 @@ export default function Header() {
     { key: 'home', href: '#home' },
     { key: 'about', href: '#about' },
     { key: 'services', href: '#services' },
-    { key: 'projects', href: '#projects' },
     { key: 'clients', href: '#clients' },
     { key: 'contact', href: '#contact' },
   ];
