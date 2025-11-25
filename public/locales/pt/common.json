@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "projects": "Projetos",
+    "clients": "Clientes",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Transformação Digital com Excelência",
+    "subtitle": "Soluções estratégicas em tecnologia, inovação e gestão para organizações que buscam resultados extraordinários",
+    "cta_primary": "Fale Conosco",
+    "cta_secondary": "Conheça Nossos Serviços",
+    "stats": {
+      "experience": "Anos de Experiência",
+      "projects": "Projetos Entregues",
+      "clients": "Clientes Satisfeitos",
+      "technologies": "Tecnologias Dominadas"
+    }
+  },
+  "about": {
+    "title": "Quem Somos",
+    "subtitle": "Especialistas em Inovação e Tecnologia",
+    "description": "Empresa especializada em inovação, prospecção, planejamento, implementação e desenvolvimento de projetos específicos para os setores de tecnologia, financeiro, energia, industrial, serviços e agricultura.",
+    "mission": {
+      "title": "Nossa Missão",
+      "description": "Contribuir para construção de soluções estratégicas sustentáveis e diferenciadas, colocando nosso know-how a serviço de organizações que buscam garantir excelência e compromisso em suas realizações."
+    },
+    "profile": {
+      "title": "Perfil da Empresa",
+      "items": [
+        "Fundada em 2020 com foco em inovação disruptiva",
+        "Profissionais com larga experiência em projetos de consultoria e desenvolvimento",
+        "Equipe multidisciplinar com expertise em software, hardware e processos",
+        "Experiência em Pesquisa, Desenvolvimento e Inovação (PDI)",
+        "Forte expertise em IA, Blockchain, IoT e Segurança da Informação",
+        "Atuação em ambientes com agências reguladoras",
+        "Conhecimento profundo de processos organizacionais",
+        "Gestão robusta de projetos (PMO/VMO)"
+      ]
+    },
+    "differentials": {
+      "title": "Diferenciais",
+      "items": [
+        {
+          "title": "Soluções Inovadoras",
+          "description": "Produtos e serviços que utilizam as mais recentes tecnologias"
+        },
+        {
+          "title": "Visão Estratégica",
+          "description": "Foco em resultados alinhados aos objetivos de negócio"
+        },
+        {
+          "title": "Metodologia Sólida",
+          "description": "Base em Best Practices e frameworks consolidados"
+        },
+        {
+          "title": "Independência",
+          "description": "Consultoria independente de fornecedores"
+        },
+        {
+          "title": "Equipe Sênior",
+          "description": "Profissionais experientes e altamente qualificados"
+        },
+        {
+          "title": "ROI Comprovado",
+          "description": "Retorno consistente sobre o investimento"
+        }
+      ]
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções Completas em Tecnologia e Gestão",
+    "items": [
+      {
+        "title": "Transformação Digital e Cloud",
+        "description": "Roadmap de cloud computing (AWS, GCP, Azure), migração de workloads, arquitetura de soluções e otimização de custos.",
+        "icon": "cloud"
+      },
+      {
+        "title": "SAP S/4HANA e SuccessFactors",
+        "description": "Implementação, migração, otimização e suporte especializado em soluções SAP para grandes corporações.",
+        "icon": "database"
+      },
+      {
+        "title": "Cibersegurança de TI e TO",
+        "description": "Estratégias de segurança, compliance, SOC, gestão de vulnerabilidades e proteção de infraestruturas críticas.",
+        "icon": "shield"
+      },
+      {
+        "title": "Automação e RPA",
+        "description": "Automação de processos de negócio, implementação de agentes inteligentes e soluções RPA.",
+        "icon": "bot"
+      },
+      {
+        "title": "Projetos Especiais: IA, Blockchain e IoT",
+        "description": "Desenvolvimento de soluções inovadoras utilizando inteligência artificial, blockchain e internet das coisas.",
+        "icon": "brain"
+      },
+      {
+        "title": "DevSecOps e CI/CD",
+        "description": "AMS de ambientes críticos, esteiras automatizadas de CI/CD e práticas de DevSecOps.",
+        "icon": "git-branch"
+      },
+      {
+        "title": "Smart Grids e Utilities",
+        "description": "Consultoria especializada para setor de energia, telemedição, SCADA e gestão de ativos.",
+        "icon": "zap"
+      },
+      {
+        "title": "Consultoria Regulatória",
+        "description": "Consultoria em assuntos regulatórios e compliance para utilities e ambientes regulados.",
+        "icon": "file-check"
+      },
+      {
+        "title": "PDI - Pesquisa e Inovação",
+        "description": "Desenvolvimento de projetos de Pesquisa, Desenvolvimento e Inovação com gestão completa.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "PMO e Gestão de Projetos",
+        "description": "Estruturação e gestão de escritórios de projetos, com metodologias ágeis e tradicionais.",
+        "icon": "layout"
+      },
+      {
+        "title": "Treinamento Especializado",
+        "description": "Capacitação de equipes em tecnologias, processos e melhores práticas.",
+        "icon": "graduation-cap"
+      },
+      {
+        "title": "Desenvolvimento de Produtos",
+        "description": "Criação de novos produtos digitais do conceito à implementação.",
+        "icon": "rocket"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos de Destaque",
+    "subtitle": "Casos de Sucesso que Transformaram Negócios",
+    "items": [
+      {
+        "title": "Transformação Digital - Grupo BBF",
+        "description": "Reestruturação completa da TI corporativa com redução de 70% em CAPEX/OPEX, implementação de SAP S/4HANA em 28 empresas e implantação de IA em múltiplas áreas.",
+        "results": [
+          "70% redução em CAPEX/OPEX",
+          "28 empresas migradas em 11 meses",
+          "25% redução em custos operacionais via IA",
+          "Cobertura 4G em 120 mil hectares"
+        ],
+        "technologies": ["SAP S/4HANA", "SuccessFactors", "AI", "IoT", "4G"],
+        "year": "2020-2024"
+      },
+      {
+        "title": "Infraestrutura e Segurança - Neoenergia",
+        "description": "Alinhamento com Iberdrola global, redução de custos OPEX de 20-40%, automação via RPA e gestão de datacenter/DR.",
+        "results": [
+          "20-40% redução em OPEX",
+          "60% redução em gaps de auditoria",
+          "7.000 usuários em cloud",
+          "10% redução em headcount via RPA"
+        ],
+        "technologies": ["Cloud", "RPA", "Datacenter", "DR", "PMO"],
+        "year": "2017-2018"
+      },
+      {
+        "title": "Smart Grids - TAESA",
+        "description": "Implementação de smart grids, automação de subestações, datacenters PRD/DR e melhorias SAP.",
+        "results": [
+          "Smart grids implementados",
+          "75% redução em gaps de compliance",
+          "Datacenters PRD/DR operacionais",
+          "~3.000h de melhorias SAP"
+        ],
+        "technologies": ["Smart Grids", "SCADA", "SAP", "ServiceNow"],
+        "year": "2016-2017"
+      },
+      {
+        "title": "E-commerce e Cloud - Grupo LTM",
+        "description": "Implementação B2B/B2C em cloud com integração global, alcance de 95% em conformidade PCI-DSS.",
+        "results": [
+          "95% conformidade PCI-DSS",
+          "20% redução em custos",
+          "Integração global de parceiros",
+          "Case global Microsoft"
+        ],
+        "technologies": ["Cloud", "PCI-DSS", "B2B/B2C", "ERP"],
+        "year": "2013-2016"
+      },
+      {
+        "title": "Transformação Digital - Compañía Energética (Colômbia)",
+        "description": "Implementação de SCADA e smart grids regionais, datacenter TIER II e integração de sistemas.",
+        "results": [
+          "SCADA regional implementado",
+          "Smart grids em escala",
+          "Datacenter TIER II operacional",
+          "Sistemas corporativos integrados"
+        ],
+        "technologies": ["SCADA", "Smart Grids", "Datacenter TIER II"],
+        "year": "2011-2012"
+      }
+    ]
+  },
+  "clients": {
+    "title": "Nossos Clientes",
+    "subtitle": "Organizações que Confiam em Nossa Expertise"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Vamos Conversar Sobre Seus Desafios",
+    "info": {
+      "location": "Jaguariúna - SP, Brasil",
+      "phone": "+55 21 992 544 456",
+      "email": "Fagner.Silva@linear-hub.com.br",
+      "website": "linear-hub.com.br"
+    },
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "company": "Empresa",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    }
+  },
+  "footer": {
+    "tagline": "Transformando negócios através da tecnologia e inovação",
+    "rights": "Todos os direitos reservados.",
+    "sections": {
+      "company": "Empresa",
+      "services": "Serviços",
+      "contact": "Contato"
+    }
+  }
+}

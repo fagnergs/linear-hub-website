@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  reactStrictMode: true,
   images: {
+    domains: ['linear-hub.com.br'],
     unoptimized: true,
   },
   trailingSlash: true,
-  reactStrictMode: true,
 }
 
 module.exports = nextConfig

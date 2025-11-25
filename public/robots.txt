@@ -1,0 +1,20 @@
+# robots.txt for Linear Hub Website
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.linear-hub.com.br/sitemap.xml
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

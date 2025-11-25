@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage - PT -->
+  <url>
+    <loc>https://www.linear-hub.com.br/</loc>
+    <lastmod>2024-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.linear-hub.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.linear-hub.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.linear-hub.com.br/es"/>
+  </url>
+
+  <!-- Homepage - EN -->
+  <url>
+    <loc>https://www.linear-hub.com.br/en</loc>
+    <lastmod>2024-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.linear-hub.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.linear-hub.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.linear-hub.com.br/es"/>
+  </url>
+
+  <!-- Homepage - ES -->
+  <url>
+    <loc>https://www.linear-hub.com.br/es</loc>
+    <lastmod>2024-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.linear-hub.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.linear-hub.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.linear-hub.com.br/es"/>
+  </url>
+
+</urlset>

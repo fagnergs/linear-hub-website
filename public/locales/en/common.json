@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "clients": "Clients",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Digital Transformation with Excellence",
+    "subtitle": "Strategic solutions in technology, innovation and management for organizations seeking extraordinary results",
+    "cta_primary": "Contact Us",
+    "cta_secondary": "Discover Our Services",
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Delivered Projects",
+      "clients": "Satisfied Clients",
+      "technologies": "Mastered Technologies"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Experts in Innovation and Technology",
+    "description": "Company specialized in innovation, prospecting, planning, implementation and development of specific projects for technology, financial, energy, industrial, services and agriculture sectors.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To contribute to building sustainable and differentiated strategic solutions, putting our know-how at the service of organizations seeking excellence and commitment in their achievements."
+    },
+    "profile": {
+      "title": "Company Profile",
+      "items": [
+        "Founded in 2020 with focus on disruptive innovation",
+        "Professionals with extensive experience in consulting and development projects",
+        "Multidisciplinary team with expertise in software, hardware and processes",
+        "Experience in Research, Development and Innovation (RD&I)",
+        "Strong expertise in AI, Blockchain, IoT and Information Security",
+        "Operation in environments with regulatory agencies",
+        "Deep knowledge of organizational processes",
+        "Robust project management (PMO/VMO)"
+      ]
+    },
+    "differentials": {
+      "title": "Differentials",
+      "items": [
+        {
+          "title": "Innovative Solutions",
+          "description": "Products and services using the latest technologies"
+        },
+        {
+          "title": "Strategic Vision",
+          "description": "Focus on results aligned with business objectives"
+        },
+        {
+          "title": "Solid Methodology",
+          "description": "Based on Best Practices and consolidated frameworks"
+        },
+        {
+          "title": "Independence",
+          "description": "Vendor-independent consulting"
+        },
+        {
+          "title": "Senior Team",
+          "description": "Experienced and highly qualified professionals"
+        },
+        {
+          "title": "Proven ROI",
+          "description": "Consistent return on investment"
+        }
+      ]
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete Solutions in Technology and Management",
+    "items": [
+      {
+        "title": "Digital Transformation and Cloud",
+        "description": "Cloud computing roadmap (AWS, GCP, Azure), workload migration, solution architecture and cost optimization.",
+        "icon": "cloud"
+      },
+      {
+        "title": "SAP S/4HANA and SuccessFactors",
+        "description": "Implementation, migration, optimization and specialized support in SAP solutions for large corporations.",
+        "icon": "database"
+      },
+      {
+        "title": "IT and OT Cybersecurity",
+        "description": "Security strategies, compliance, SOC, vulnerability management and critical infrastructure protection.",
+        "icon": "shield"
+      },
+      {
+        "title": "Automation and RPA",
+        "description": "Business process automation, intelligent agents implementation and RPA solutions.",
+        "icon": "bot"
+      },
+      {
+        "title": "Special Projects: AI, Blockchain and IoT",
+        "description": "Development of innovative solutions using artificial intelligence, blockchain and internet of things.",
+        "icon": "brain"
+      },
+      {
+        "title": "DevSecOps and CI/CD",
+        "description": "AMS for critical environments, automated CI/CD pipelines and DevSecOps practices.",
+        "icon": "git-branch"
+      },
+      {
+        "title": "Smart Grids and Utilities",
+        "description": "Specialized consulting for energy sector, telemetry, SCADA and asset management.",
+        "icon": "zap"
+      },
+      {
+        "title": "Regulatory Consulting",
+        "description": "Consulting in regulatory affairs and compliance for utilities and regulated environments.",
+        "icon": "file-check"
+      },
+      {
+        "title": "RD&I - Research and Innovation",
+        "description": "Development of Research, Development and Innovation projects with complete management.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "PMO and Project Management",
+        "description": "Structuring and management of project offices, with agile and traditional methodologies.",
+        "icon": "layout"
+      },
+      {
+        "title": "Specialized Training",
+        "description": "Team training in technologies, processes and best practices.",
+        "icon": "graduation-cap"
+      },
+      {
+        "title": "Product Development",
+        "description": "Creation of new digital products from concept to implementation.",
+        "icon": "rocket"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Success Stories that Transformed Businesses",
+    "items": [
+      {
+        "title": "Digital Transformation - Grupo BBF",
+        "description": "Complete restructuring of corporate IT with 70% reduction in CAPEX/OPEX, SAP S/4HANA implementation in 28 companies and AI deployment in multiple areas.",
+        "results": [
+          "70% reduction in CAPEX/OPEX",
+          "28 companies migrated in 11 months",
+          "25% reduction in operational costs via AI",
+          "4G coverage in 120 thousand hectares"
+        ],
+        "technologies": ["SAP S/4HANA", "SuccessFactors", "AI", "IoT", "4G"],
+        "year": "2020-2024"
+      },
+      {
+        "title": "Infrastructure and Security - Neoenergia",
+        "description": "Alignment with global Iberdrola, 20-40% OPEX cost reduction, RPA automation and datacenter/DR management.",
+        "results": [
+          "20-40% OPEX reduction",
+          "60% reduction in audit gaps",
+          "7,000 users in cloud",
+          "10% headcount reduction via RPA"
+        ],
+        "technologies": ["Cloud", "RPA", "Datacenter", "DR", "PMO"],
+        "year": "2017-2018"
+      },
+      {
+        "title": "Smart Grids - TAESA",
+        "description": "Smart grids implementation, substation automation, PRD/DR datacenters and SAP improvements.",
+        "results": [
+          "Smart grids implemented",
+          "75% reduction in compliance gaps",
+          "PRD/DR datacenters operational",
+          "~3,000h of SAP improvements"
+        ],
+        "technologies": ["Smart Grids", "SCADA", "SAP", "ServiceNow"],
+        "year": "2016-2017"
+      },
+      {
+        "title": "E-commerce and Cloud - Grupo LTM",
+        "description": "B2B/B2C implementation in cloud with global integration, achieving 95% PCI-DSS compliance.",
+        "results": [
+          "95% PCI-DSS compliance",
+          "20% cost reduction",
+          "Global partner integration",
+          "Microsoft global case"
+        ],
+        "technologies": ["Cloud", "PCI-DSS", "B2B/B2C", "ERP"],
+        "year": "2013-2016"
+      },
+      {
+        "title": "Digital Transformation - Compañía Energética (Colombia)",
+        "description": "Regional SCADA and smart grids implementation, TIER II datacenter and systems integration.",
+        "results": [
+          "Regional SCADA implemented",
+          "Smart grids at scale",
+          "TIER II datacenter operational",
+          "Corporate systems integrated"
+        ],
+        "technologies": ["SCADA", "Smart Grids", "TIER II Datacenter"],
+        "year": "2011-2012"
+      }
+    ]
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Organizations that Trust Our Expertise"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's Talk About Your Challenges",
+    "info": {
+      "location": "Jaguariúna - SP, Brazil",
+      "phone": "+55 21 992 544 456",
+      "email": "Fagner.Silva@linear-hub.com.br",
+      "website": "linear-hub.com.br"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    }
+  },
+  "footer": {
+    "tagline": "Transforming businesses through technology and innovation",
+    "rights": "All rights reserved.",
+    "sections": {
+      "company": "Company",
+      "services": "Services",
+      "contact": "Contact"
+    }
+  }
+}
