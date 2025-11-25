@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: 'export',           // ← isso substitui o next export
+  trailingSlash: true,        // opcional, mas ajuda no Firebase
   images: {
-    domains: ['linear-hub.com.br'],
-    unoptimized: true,
-  },
-  trailingSlash: true,
+    unoptimized: true         // necessário quando output: export
+  }
 }
 
 module.exports = nextConfig
